@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#69F0AE"
+    tools:context="com.example.tarunmittal.udacityproject1.MainActivity">
+
+<ImageView
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:padding="8dp"
+    android:scaleType="centerCrop"
+android:id="@+id/image"
+   android:layout_gravity="center_horizontal"
+    android:src="@drawable/uda"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:id="@+id/text3"
+        android:layout_gravity="center_horizontal" android:layout_below="@+id/image"
+        android:text="Build the Future Today"
+        android:textStyle="bold"
+        android:fontFamily="times new roman"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#E65100"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".05"
+         android:id="@+id/text2"
+android:paddingLeft="6dp"
+        android:layout_below="@+id/image"
+        android:text="Udacity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#E65100"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+
+        android:paddingLeft="6dp"
+        android:layout_weight=".05"
+        android:id="@+id/text4"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image"
+        android:text="650-555-5555"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#E65100"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:paddingLeft="6dp"
+        android:layout_weight=".05"
+        android:id="@+id/text1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image"
+        android:text="www.udacity.com"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#E65100"
+        />
+    <TextView
+        android:layout_weight=".05"
+        android:paddingLeft="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image"
+        android:text="2465 Latham St,Mountain View, CA 94043"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#E65100"
+        />
+    <TextView
+        android:layout_weight=".05"
+        android:layout_width="wrap_content"
+        android:paddingLeft="6dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image"
+        android:text="For any Suggestion:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#111"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+       android:maxEms="2"
+        android:maxLength="200"
+        android:paddingBottom="6dp"
+       android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColorHint="@android:color/white"
+        android:hint="Enter your Feedback"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:alpha=".4"
+        android:text="Submit"
+        android:clickable="true"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:paddingLeft="6dp"
+        android:layout_marginLeft="6dp"/>
+
+    </LinearLayout>
